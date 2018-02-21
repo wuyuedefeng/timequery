@@ -2,6 +2,7 @@
 time range query
 
 ## Usage
+auto extend below methods on ActiveRecord::Base
 ```
 between_range_column column_name, begin_at, end_at
 day_range_column column_name, time = Time.current
@@ -14,7 +15,7 @@ year_range_column column_name, time = Time.current
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'timequery'
+gem 'timequery', github: 'wuyuedefeng/timequery'
 ```
 
 And then execute:
